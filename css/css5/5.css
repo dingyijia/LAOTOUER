@@ -1,0 +1,21 @@
+html{
+    font-size: 9pt;
+}
+body {
+    background-color: rgb(0, 0, 0); 
+    width: 1000px;
+    width: 80%vw;
+    font-size:12pt;
+    font-family: :Arial,sans-serif;font-weight:bold;color:white;}
+ body {
+ background-color: rgb(255, 146, 164);
+/* width: 800px; */
+font-size: 12pt;
+ background-image: linear-gradient(to top, rgb(187, 255, 0) 10%, rgb(117, 48, 255) 50%);  
+}
+a{
+    color: rgb(65, 112, 121);
+}
+article{
+    font-size: 15pt;  
+}

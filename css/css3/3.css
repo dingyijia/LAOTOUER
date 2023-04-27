@@ -1,0 +1,45 @@
+html {
+    font-size: 24px;
+    }
+    
+    body {
+    background-color: rgb(127, 19, 37);
+    width: 800px;
+    font-size: 22pt;
+    background-image: linear-gradient(to top, rgb(255, 19, 255) 0%, rgb(253, 247, 132) 50%);
+    }
+    
+    article {
+        font-size: 1em;
+    }
+    h1{
+        font-size: 4em;
+    }
+    
+    h1 {
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    p {
+    color: rgb(255, 186, 218);
+    width: 100%%;
+    /* background-color: rgb(31, 103, 73); */
+    font-size: 1.5rem;
+    }
+    
+    .myclass {
+        color: brown;
+    }
+    
+    .green {
+        color: rgb(0, 255, 174);
+    }
+    #first {
+        font-weight: 100;
+    }
+    
+    a {
+        color: rgb(0, 183, 255);
+    
+    }

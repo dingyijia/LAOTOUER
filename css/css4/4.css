@@ -1,0 +1,12 @@
+html{
+    font-size: 9pt;
+}
+body {
+    background-color: rgb(188, 255, 17); 
+    width: 800px;
+    width: 50%vw;
+    font-size:18pt;
+}
+.green{
+    font-size:13pt;
+}

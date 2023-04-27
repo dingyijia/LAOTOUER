@@ -1,0 +1,10 @@
+html{
+    font-size: 9pt;
+}
+body {
+    background-color: rgb(184, 184, 184); 
+    top :100px
+    /* width: 800px; */
+    width: 50%vw;
+    font-size:12pt;
+}

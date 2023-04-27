@@ -1,0 +1,9 @@
+html{
+    font-size: 24pt;
+}
+body {
+    background-color: grey; 
+    /* width: 800px; */
+    width: 50%vw;
+    font-size: 24pt;
+}
