@@ -1,0 +1,73 @@
+<html>
+<head>
+ <title>文字进入动画</title>
+ <style>
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+      color: white;
+    }
+    to {
+      margin-left: 0%;
+      color: rgb(252, 4, 227);
+    }
+  }
+  .animation {
+   animation: slidein 5s ease;
+  }
+ </style>
+</head>
+<body>
+ <h1 class="animation">*Yijia Ding(2002),is a brand designer studying at the Shanghai Institute of Visual Arts. He lives in Shanghai and Dalian, China.
+
+    Works mainly focus on  <span class="text">(1)brand design </span><span class="text">(2)book design </span><span class="text">(3)public space community design</span>.</h1>
+    <style>
+        .text {
+          font-size: 50px;
+          color: rgb(255, 0, 242);
+          transition: font-size 0.5s, color 0.5s; /* 设置过渡效果 */
+        }
+        .text:hover {
+          font-size: 80px;
+          color: rgb(212, 255, 0);
+        }
+      </style>
+</body>
+<style>
+   .class{color:rgb(252, 4, 227);} 
+</style>
+<head>
+    <title>小球弹跳动画</title>
+    <style>
+     .ball {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(0, 239, 0);
+      border-radius: 50%;
+      position: absolute;
+      right: -50px;
+      animation: bounce 5s ease-in-out;
+     }
+     @keyframes bounce {
+      from {
+       right: -50px;
+       transform: translateY(0px);
+      }
+      50% {
+       transform: translateY(-100px);
+      }
+      to {
+       right: 50%;
+       transform: translateY(0px);
+      }
+     }
+    </style>
+   </head>
+   <body>
+    <div class="ball"></div>
+   </body>
+   <p>
+    <hr>
+       <a>See more pages here: <a href="../donghua3/index.html">dh3index.html</a>
+   </p>
+</html>

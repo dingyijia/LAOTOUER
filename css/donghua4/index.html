@@ -1,0 +1,76 @@
+<html>
+<head>
+    <style>
+        @keyframes jump {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(40px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        
+        .jumping-text {
+            display: inline-block;
+            animation: jump 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="animation">
+        <span class="jumping-text">child</span>
+        <span class="jumping-text"> book design</span>
+        <span class="jumping-text">Medium: Print</span>
+        <span class="jumping-text"> Materials: silk paper, newsprint</span>
+        <span class="jumping-text"> Reading the church bell ringing the old man recalls his life, after all is still a child.</span>
+    </h1>
+    <style>
+        @keyframes slidein {
+          from {
+            margin-left: -100%;
+            color: white;
+          }
+          to {
+            margin-left: 0%;
+            color: rgb(53, 149, 223);
+          }
+        }
+        .animation {
+         animation: slidein 5s ease;
+        }
+       </style>
+</body>
+<head>
+    <title>小球弹跳动画</title>
+    <style>
+     .ball {
+      width: 100px;
+      height: 50px;
+      background-color: rgb(239, 0, 199);
+      border-radius: 50%;
+      position: absolute;
+      right: -50px;
+      animation: bounce 5s ease-in-out;
+     }
+     @keyframes bounce {
+      from {
+       right: -50px;
+       transform: translateY(0px);
+      }
+      50% {
+       transform: translateY(-100px);
+      }
+      to {
+       right: 50%;
+       transform: translateY(0px);
+      }
+     }
+    </style>
+   </head>
+   <body>
+    <div class="ball"></div>
+   </body>
+</html>

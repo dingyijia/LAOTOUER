@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>五个菱形网格</title>
+ <style>
+  .grid {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 10px;
+   transform: rotate(45deg);
+  }
+  .box {
+   position: relative;
+   width: 100%;
+   padding-bottom: 100%;
+   background-color: #ccc;
+   transform: rotate(-45deg);
+  }
+  .box:hover {
+   background-color: rgb(255, 0, 195);
+  }
+  .input {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 70%;
+   height: 70%;
+   border: none;
+   outline: none;
+   background-color: transparent;
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+  }
+  .box:hover .input {
+   opacity: 1;
+  }
+ </style>
+</head>
+<body>
+ <div class="grid">
+  <div class="box">
+   <input type="text" class="input" placeholder="请输入文字">
+  </div>
+  <div class="box">
+   <input type="text" class="input" placeholder="请输入文字">
+  </div>
+  <div class="box">
+   <input type="text" class="input" placeholder="请输入文字">
+  </div>
+  <div class="box">
+   <input type="text" class="input" placeholder="请输入文字">
+  </div>
+  <div class="box">
+   <input type="text" class="input" placeholder="请输入文字">
+  </div>
+ </div>
+</body>
+<p>
+    <hr>
+       <a>See more pages here: <a href="../wangge4/index.html">wangge4index.html</a>
+   </p>
+</html>

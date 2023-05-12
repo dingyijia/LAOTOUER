@@ -4,7 +4,7 @@ html{
 body {
     background-color: rgb(0, 0, 0); 
     width: 1000px;
-    width: 80%vw;
+    width: 100%vw;
     font-size:12pt;
     font-family: :Arial,sans-serif;font-weight:bold;color:white;}
  body {
@@ -19,3 +19,12 @@ a{
 article{
     font-size: 15pt;  
 }
+<style>
+.container {
+  height: 100px;
+  overflow: auto;
+}
+.content {
+  white-space: nowrap;
+}
+</style>
